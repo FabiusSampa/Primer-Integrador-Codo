@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 body{
@@ -12,8 +13,10 @@ body{
 
 
 h2{
+    font-weight: bold;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 h3{
@@ -25,6 +28,13 @@ h4{
     color: blue;
     text-align: center;
 }
+
+h5{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
 
 H1{
     font-size: 20px;
@@ -51,6 +61,11 @@ nav {
     text-align: center;
     padding-bottom: 25px;
 }
+
+/* section {
+    margin-top: 5%;
+} */
+
 
 #recuerdos{
     background-image: url(BancoImag/rutaarboles1.jpg);

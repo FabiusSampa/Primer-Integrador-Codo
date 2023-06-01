@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="Estilo.css">
+    <Script src="Reservas2.js" defer></Script>
+    
+    <title>MOTOCLUB       PAGINA OFICIAL  -  RESERVAS</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" style="height: 150px;">
+                <header>
+                    <img src="BancoImag/logoparamodificar3.jpg" class="img-thumbnail" alt="Logo del Club">
+                    <a href="INICIO.html"><button>SALIR</button></a>
+                    <a href="HOSPEDAJES.html"><button>VOLVER</button></a>
+                </header>
+            </div>
+        </div>
+
+
+
+        <section>
+            <div class="container">
+                <h1>Selecionó la posada  <h2>ENCUENTRO EN EL BOSQUE</h2></h1>
+                <div class="ponderosa">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <H1>Tipo de Habitación</H1>
+                            </div>
+        
+                            <div class="col-12 col-md-4">
+                                <select class="tipoHabitacion" id="tipoHabitacion">
+                                    <option selected>Seleccione una Habitacion</option>
+                                    <option value=20>Opcion 1 - Habitacion Doble - € 20,00.-</option>
+                                    <option value=30>Opcion 2 - Habitacion Triple - € 30,00.-</option>
+                                    <option value=40>Opcion 3 - Habitacion Cuádruple - € 40,00.-</option>
+                                </select>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+        
+                            <div class="col-12 col-md-4">
+                                <H1>Cantidad de Noches</H1>
+                            </div>
+        
+                            <div class="col-12 col-md-4">
+                                <input type="number" id="cantNoches" placeholder="¿Cuántas noches?">
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <H1>Sos Socio</H1>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <select class="sosSocio" id="sosSocio">
+                                    <option selected>Es Socio del Club</option>
+                                    <option value=0.8>SI</option>
+                                    <option value=1> NO </option>
+                                </select>
+                            </div>
+                        </div>
+        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="ponderosa">
+            <div class="container">
+                <div class="ponderosa">
+                    <div class="botonCaptura">
+                        <button type="button" onclick="captura()">RESERVAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="muestraReserva">
+            <div class="container">
+                <p id="montoReserva"></p>        
+            </div>
+        </section>
+
+
+        
+
+
+
+
+    </body>
+    </html>
+
+
+
+
+
+    <!-- <header>
+            <h1>Selecionó la posada  <h2>ENCUENTRO EN EL BOSQUE</h2></h1>
+
+            <h3>Opcion 1 - Habitacion Doble     - € 20,00.-</h3>
+            <h3>Opcion 2 - Habitacion Triple    - € 30,00.-</h3>
+            <h3>Opcion 3 - Habitacion Cuádruple - € 40,00.-</h3>
+
+
+            <h2>Para los Socios del MotoClub 20 % de descuento.</h2>
+
+    </header> -->
+
+
+<!-- <form>
+    <select class="tipoHabitacion" id="tipoHabitacion" >
+        <option selected>Seleccione una Habitacion</option>
+        <option value = 20>Opcion 1 - Habitacion Doble     - € 20,00.-</option>
+        <option value = 30>Opcion 2 - Habitacion Triple    - € 30,00.-</option>
+        <option value = 40>Opcion 3 - Habitacion Cuádruple - € 40,00.-</option>
+             
+    </select>
+<br>
+<br>
+<br>
+<br>
+
+    <select class="sosSocio" id="sosSocio">
+        <option selected>Es Socio del Club</option>
+        <option value = 0.8 >SI</option>
+        <option value = 1 > NO </option>
+    
+    </select>
+<br>
+<br>
+<br>
+<br>
+
+    <input type="number" id="cantNoches" placeholder="¿Cuántas noches?">
+
+<br>
+<br>
+<br>
+<br>
+
+    <button type="button" onclick="captura()">Capturar</button>
+</form> -->
+
